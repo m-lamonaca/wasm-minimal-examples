@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2022"],
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "nodenext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wasm/*": ["dist/wasm/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["./dist"]
+}

@@ -1,0 +1,4 @@
+/node_modules
+
+# wasm-pack output
+/dist

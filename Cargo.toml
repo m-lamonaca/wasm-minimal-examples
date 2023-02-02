@@ -1,0 +1,24 @@
+[package]
+name = "wasm-in-browser"
+version = "0.1.0"
+edition = "2021"
+description = ""
+repository = "https://github.com/m-lamonaca/wasm-in-browser.git"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+wasm-bindgen = "0.2.84"
+
+
+[package.metadata.wasm-pack.profile.dev]
+wasm-opt = false
+
+[package.metadata.wasm-pack.profile.profiling]
+wasm-opt = false
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false

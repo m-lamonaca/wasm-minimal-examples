@@ -1,0 +1,25 @@
+{
+  "name": "wasm-in-browser",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "JS side of wasm-in-browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/m-lamonaca/wasm-in-browser.git"
+  },
+  "keywords": [
+    "wasm",
+    "rust",
+    "typescript"
+  ],
+  "author": "Marcello Lamonaca <marcello@lamonaca.eu>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-alias": "^1.8.5",
+    "typescript": "^5.0.4"
+  }
+}
