@@ -9,4 +9,4 @@ build:
 
 clean:
     cargo clean
-    rm ./dist -rf
+    rm ./www/dist -rf
