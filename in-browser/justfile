@@ -1,4 +1,6 @@
-_default:
+set shell := ["nu", "-c"]
+
+@_default:
     just --list
 
 build:
